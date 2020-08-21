@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081FAD96BBC3513ACF5C372F /* Pods_SiempreOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D8A511EF01B45B2A881ACE /* Pods_SiempreOne.framework */; };
+		2E4F3FA4228792B1006E2B1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E4F3FA3228792B1006E2B1D /* GoogleService-Info.plist */; };
+		2E4F3FA62287AA1E006E2B1D /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3FA52287AA1E006E2B1D /* FriendTableViewCell.swift */; };
+		2E4F3FA82287ABC2006E2B1D /* FriendTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3FA72287ABC2006E2B1D /* FriendTableViewController.swift */; };
+		2E4F3FAA228818EB006E2B1D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3FA9228818EB006E2B1D /* MainViewController.swift */; };
+		2E4F3FB62288D8FE006E2B1D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4F3FB52288D8FE006E2B1D /* NotificationCenter.framework */; };
+		2E4F3FB92288D8FE006E2B1D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3FB82288D8FE006E2B1D /* TodayViewController.swift */; };
+		2E4F3FBC2288D8FE006E2B1D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4F3FBA2288D8FE006E2B1D /* MainInterface.storyboard */; };
+		2E4F3FC02288D8FE006E2B1D /* SiempreOneWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2E4F3FB42288D8FD006E2B1D /* SiempreOneWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E4F3FC62288DA2B006E2B1D /* FriendCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F3FC52288DA2B006E2B1D /* FriendCollectionViewCell.swift */; };
+		2EA5EF5822865A690055F457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5EF5722865A690055F457 /* AppDelegate.swift */; };
+		2EA5EF5A22865A690055F457 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5EF5922865A690055F457 /* LoginViewController.swift */; };
+		2EA5EF5D22865A690055F457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA5EF5B22865A690055F457 /* Main.storyboard */; };
+		2EA5EF5F22865A6B0055F457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA5EF5E22865A6B0055F457 /* Assets.xcassets */; };
+		2EA5EF6222865A6B0055F457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA5EF6022865A6B0055F457 /* LaunchScreen.storyboard */; };
+		2EA5EF6D22865A6B0055F457 /* SiempreOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5EF6C22865A6B0055F457 /* SiempreOneTests.swift */; };
+		2EA5EF7822865A6B0055F457 /* SiempreOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA5EF7722865A6B0055F457 /* SiempreOneUITests.swift */; };
+		41A0297DB15E6AFB852E3D86 /* Pods_SiempreOneWidget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0FEB47A17ED9BFE0D5DF2F3 /* Pods_SiempreOneWidget.framework */; };
+		D645842F30A0024183B4A4CC /* Pods_SiempreOneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8542F27C5E5A13E7176CC13 /* Pods_SiempreOneTests.framework */; };
+		EA589AA4C6C6F9ABA22F5812 /* Pods_SiempreOneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B710819616A724CC053399B3 /* Pods_SiempreOneUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E4F3FBE2288D8FE006E2B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA5EF4C22865A690055F457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4F3FB32288D8FD006E2B1D;
+			remoteInfo = SiempreOneWidget;
+		};
+		2EA5EF6922865A6B0055F457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA5EF4C22865A690055F457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA5EF5322865A690055F457;
+			remoteInfo = SiempreOne;
+		};
+		2EA5EF7422865A6B0055F457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EA5EF4C22865A690055F457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EA5EF5322865A690055F457;
+			remoteInfo = SiempreOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2E4F3FC42288D8FE006E2B1D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2E4F3FC02288D8FE006E2B1D /* SiempreOneWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07C9343E891CBA45E2415F3D /* Pods-SiempreOneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiempreOneTests.release.xcconfig"; path = "Target Support Files/Pods-SiempreOneTests/Pods-SiempreOneTests.release.xcconfig"; sourceTree = "<group>"; };
+		07F43851B4CE0DE4E0266F0C /* Pods-SiempreOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiempreOne.debug.xcconfig"; path = "Target Support Files/Pods-SiempreOne/Pods-SiempreOne.debug.xcconfig"; sourceTree = "<group>"; };
+		2A7B04F27507173D9101E04F /* Pods-SiempreOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiempreOne.release.xcconfig"; path = "Target Support Files/Pods-SiempreOne/Pods-SiempreOne.release.xcconfig"; sourceTree = "<group>"; };
+		2E4F3FA3228792B1006E2B1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E4F3FA52287AA1E006E2B1D /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		2E4F3FA72287ABC2006E2B1D /* FriendTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewController.swift; sourceTree = "<group>"; };
+		2E4F3FA9228818EB006E2B1D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2E4F3FAB22889FBB006E2B1D /* SiempreOne.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiempreOne.entitlements; sourceTree = "<group>"; };
+		2E4F3FB42288D8FD006E2B1D /* SiempreOneWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SiempreOneWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4F3FB52288D8FE006E2B1D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		2E4F3FB82288D8FE006E2B1D /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		2E4F3FBB2288D8FE006E2B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2E4F3FBD2288D8FE006E2B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E4F3FC52288DA2B006E2B1D /* FriendCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCollectionViewCell.swift; sourceTree = "<group>"; };
+		2EA5EF5422865A690055F457 /* SiempreOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiempreOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA5EF5722865A690055F457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EA5EF5922865A690055F457 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2EA5EF5C22865A690055F457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA5EF5E22865A6B0055F457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EA5EF6122865A6B0055F457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EA5EF6322865A6B0055F457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA5EF6822865A6B0055F457 /* SiempreOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiempreOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA5EF6C22865A6B0055F457 /* SiempreOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiempreOneTests.swift; sourceTree = "<group>"; };
+		2EA5EF6E22865A6B0055F457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA5EF7322865A6B0055F457 /* SiempreOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiempreOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EA5EF7722865A6B0055F457 /* SiempreOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiempreOneUITests.swift; sourceTree = "<group>"; };
+		2EA5EF7922865A6B0055F457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		657029FA0C329568620072FD /* Pods-SiempreOneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiempreOneTests.debug.xcconfig"; path = "Target Support Files/Pods-SiempreOneTests/Pods-SiempreOneTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70D8A511EF01B45B2A881ACE /* Pods_SiempreOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiempreOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9458EE17372D852A1BB477 /* Pods-SiempreOneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiempreOneUITests.debug.xcconfig"; path = "Target Support Files/Pods-SiempreOneUITests/Pods-SiempreOneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		926836E39AF9084586736203 /* Pods-SiempreOneWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiempreOneWidget.debug.xcconfig"; path = "Target Support Files/Pods-SiempreOneWidget/Pods-SiempreOneWidget.debug.xcconfig"; sourceTree = "<group>"; };
+		92C4C295D905C94A49856DBA /* Pods-SiempreOneWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiempreOneWidget.release.xcconfig"; path = "Target Support Files/Pods-SiempreOneWidget/Pods-SiempreOneWidget.release.xcconfig"; sourceTree = "<group>"; };
+		A8542F27C5E5A13E7176CC13 /* Pods_SiempreOneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiempreOneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B710819616A724CC053399B3 /* Pods_SiempreOneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiempreOneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0FEB47A17ED9BFE0D5DF2F3 /* Pods_SiempreOneWidget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SiempreOneWidget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFA97CF3C5917344C9D763D /* Pods-SiempreOneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SiempreOneUITests.release.xcconfig"; path = "Target Support Files/Pods-SiempreOneUITests/Pods-SiempreOneUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E4F3FB12288D8FD006E2B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4F3FB62288D8FE006E2B1D /* NotificationCenter.framework in Frameworks */,
+				41A0297DB15E6AFB852E3D86 /* Pods_SiempreOneWidget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF5122865A690055F457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081FAD96BBC3513ACF5C372F /* Pods_SiempreOne.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF6522865A6B0055F457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D645842F30A0024183B4A4CC /* Pods_SiempreOneTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF7022865A6B0055F457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA589AA4C6C6F9ABA22F5812 /* Pods_SiempreOneUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19DF3AC2A96520E336176EEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07F43851B4CE0DE4E0266F0C /* Pods-SiempreOne.debug.xcconfig */,
+				2A7B04F27507173D9101E04F /* Pods-SiempreOne.release.xcconfig */,
+				657029FA0C329568620072FD /* Pods-SiempreOneTests.debug.xcconfig */,
+				07C9343E891CBA45E2415F3D /* Pods-SiempreOneTests.release.xcconfig */,
+				7A9458EE17372D852A1BB477 /* Pods-SiempreOneUITests.debug.xcconfig */,
+				EBFA97CF3C5917344C9D763D /* Pods-SiempreOneUITests.release.xcconfig */,
+				926836E39AF9084586736203 /* Pods-SiempreOneWidget.debug.xcconfig */,
+				92C4C295D905C94A49856DBA /* Pods-SiempreOneWidget.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2E4F3FB72288D8FE006E2B1D /* SiempreOneWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2E4F3FB82288D8FE006E2B1D /* TodayViewController.swift */,
+				2E4F3FC52288DA2B006E2B1D /* FriendCollectionViewCell.swift */,
+				2E4F3FBA2288D8FE006E2B1D /* MainInterface.storyboard */,
+				2E4F3FBD2288D8FE006E2B1D /* Info.plist */,
+			);
+			path = SiempreOneWidget;
+			sourceTree = "<group>";
+		};
+		2EA5EF4B22865A690055F457 = {
+			isa = PBXGroup;
+			children = (
+				2EA5EF5622865A690055F457 /* SiempreOne */,
+				2EA5EF6B22865A6B0055F457 /* SiempreOneTests */,
+				2EA5EF7622865A6B0055F457 /* SiempreOneUITests */,
+				2E4F3FB72288D8FE006E2B1D /* SiempreOneWidget */,
+				2EA5EF5522865A690055F457 /* Products */,
+				19DF3AC2A96520E336176EEE /* Pods */,
+				F4F00C9594E5756CA52D6BFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EA5EF5522865A690055F457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EA5EF5422865A690055F457 /* SiempreOne.app */,
+				2EA5EF6822865A6B0055F457 /* SiempreOneTests.xctest */,
+				2EA5EF7322865A6B0055F457 /* SiempreOneUITests.xctest */,
+				2E4F3FB42288D8FD006E2B1D /* SiempreOneWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EA5EF5622865A690055F457 /* SiempreOne */ = {
+			isa = PBXGroup;
+			children = (
+				2E4F3FAB22889FBB006E2B1D /* SiempreOne.entitlements */,
+				2EA5EF5B22865A690055F457 /* Main.storyboard */,
+				2E4F3FA9228818EB006E2B1D /* MainViewController.swift */,
+				2EA5EF6022865A6B0055F457 /* LaunchScreen.storyboard */,
+				2EA5EF5722865A690055F457 /* AppDelegate.swift */,
+				2EA5EF5922865A690055F457 /* LoginViewController.swift */,
+				2E4F3FA72287ABC2006E2B1D /* FriendTableViewController.swift */,
+				2E4F3FA52287AA1E006E2B1D /* FriendTableViewCell.swift */,
+				2EA5EF6322865A6B0055F457 /* Info.plist */,
+				2E4F3FA3228792B1006E2B1D /* GoogleService-Info.plist */,
+				2EA5EF5E22865A6B0055F457 /* Assets.xcassets */,
+			);
+			path = SiempreOne;
+			sourceTree = "<group>";
+		};
+		2EA5EF6B22865A6B0055F457 /* SiempreOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EA5EF6C22865A6B0055F457 /* SiempreOneTests.swift */,
+				2EA5EF6E22865A6B0055F457 /* Info.plist */,
+			);
+			path = SiempreOneTests;
+			sourceTree = "<group>";
+		};
+		2EA5EF7622865A6B0055F457 /* SiempreOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EA5EF7722865A6B0055F457 /* SiempreOneUITests.swift */,
+				2EA5EF7922865A6B0055F457 /* Info.plist */,
+			);
+			path = SiempreOneUITests;
+			sourceTree = "<group>";
+		};
+		F4F00C9594E5756CA52D6BFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70D8A511EF01B45B2A881ACE /* Pods_SiempreOne.framework */,
+				A8542F27C5E5A13E7176CC13 /* Pods_SiempreOneTests.framework */,
+				B710819616A724CC053399B3 /* Pods_SiempreOneUITests.framework */,
+				2E4F3FB52288D8FE006E2B1D /* NotificationCenter.framework */,
+				D0FEB47A17ED9BFE0D5DF2F3 /* Pods_SiempreOneWidget.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E4F3FB32288D8FD006E2B1D /* SiempreOneWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E4F3FC12288D8FE006E2B1D /* Build configuration list for PBXNativeTarget "SiempreOneWidget" */;
+			buildPhases = (
+				0F116838B19DEEF632DF604D /* [CP] Check Pods Manifest.lock */,
+				2E4F3FB02288D8FD006E2B1D /* Sources */,
+				2E4F3FB12288D8FD006E2B1D /* Frameworks */,
+				2E4F3FB22288D8FD006E2B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiempreOneWidget;
+			productName = SiempreOneWidget;
+			productReference = 2E4F3FB42288D8FD006E2B1D /* SiempreOneWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		2EA5EF5322865A690055F457 /* SiempreOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA5EF7C22865A6B0055F457 /* Build configuration list for PBXNativeTarget "SiempreOne" */;
+			buildPhases = (
+				8E1F7DA857D96AE4669E717F /* [CP] Check Pods Manifest.lock */,
+				2EA5EF5022865A690055F457 /* Sources */,
+				2EA5EF5122865A690055F457 /* Frameworks */,
+				2EA5EF5222865A690055F457 /* Resources */,
+				8F13F5EA9AABAE8019F9C38E /* [CP] Embed Pods Frameworks */,
+				2E4F3FC42288D8FE006E2B1D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E4F3FBF2288D8FE006E2B1D /* PBXTargetDependency */,
+			);
+			name = SiempreOne;
+			productName = SiempreOne;
+			productReference = 2EA5EF5422865A690055F457 /* SiempreOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EA5EF6722865A6B0055F457 /* SiempreOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA5EF7F22865A6B0055F457 /* Build configuration list for PBXNativeTarget "SiempreOneTests" */;
+			buildPhases = (
+				53DE4F0245CC3BBBB6E7F8E3 /* [CP] Check Pods Manifest.lock */,
+				2EA5EF6422865A6B0055F457 /* Sources */,
+				2EA5EF6522865A6B0055F457 /* Frameworks */,
+				2EA5EF6622865A6B0055F457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA5EF6A22865A6B0055F457 /* PBXTargetDependency */,
+			);
+			name = SiempreOneTests;
+			productName = SiempreOneTests;
+			productReference = 2EA5EF6822865A6B0055F457 /* SiempreOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EA5EF7222865A6B0055F457 /* SiempreOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EA5EF8222865A6B0055F457 /* Build configuration list for PBXNativeTarget "SiempreOneUITests" */;
+			buildPhases = (
+				F7D6693959E3B9A4AB975099 /* [CP] Check Pods Manifest.lock */,
+				2EA5EF6F22865A6B0055F457 /* Sources */,
+				2EA5EF7022865A6B0055F457 /* Frameworks */,
+				2EA5EF7122865A6B0055F457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EA5EF7522865A6B0055F457 /* PBXTargetDependency */,
+			);
+			name = SiempreOneUITests;
+			productName = SiempreOneUITests;
+			productReference = 2EA5EF7322865A6B0055F457 /* SiempreOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EA5EF4C22865A690055F457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Siempre;
+				TargetAttributes = {
+					2E4F3FB32288D8FD006E2B1D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2EA5EF5322865A690055F457 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2EA5EF6722865A6B0055F457 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2EA5EF5322865A690055F457;
+					};
+					2EA5EF7222865A6B0055F457 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2EA5EF5322865A690055F457;
+					};
+				};
+			};
+			buildConfigurationList = 2EA5EF4F22865A690055F457 /* Build configuration list for PBXProject "SiempreOne" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EA5EF4B22865A690055F457;
+			productRefGroup = 2EA5EF5522865A690055F457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EA5EF5322865A690055F457 /* SiempreOne */,
+				2EA5EF6722865A6B0055F457 /* SiempreOneTests */,
+				2EA5EF7222865A6B0055F457 /* SiempreOneUITests */,
+				2E4F3FB32288D8FD006E2B1D /* SiempreOneWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E4F3FB22288D8FD006E2B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4F3FBC2288D8FE006E2B1D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF5222865A690055F457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA5EF6222865A6B0055F457 /* LaunchScreen.storyboard in Resources */,
+				2E4F3FA4228792B1006E2B1D /* GoogleService-Info.plist in Resources */,
+				2EA5EF5F22865A6B0055F457 /* Assets.xcassets in Resources */,
+				2EA5EF5D22865A690055F457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF6622865A6B0055F457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF7122865A6B0055F457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F116838B19DEEF632DF604D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiempreOneWidget-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53DE4F0245CC3BBBB6E7F8E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiempreOneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1F7DA857D96AE4669E717F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiempreOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F13F5EA9AABAE8019F9C38E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SiempreOne/Pods-SiempreOne-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${PODS_ROOT}/TwilioVoice/TwilioVoice.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwilioVoice.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SiempreOne/Pods-SiempreOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7D6693959E3B9A4AB975099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SiempreOneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4F3FB02288D8FD006E2B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4F3FC62288DA2B006E2B1D /* FriendCollectionViewCell.swift in Sources */,
+				2E4F3FB92288D8FE006E2B1D /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF5022865A690055F457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4F3FA62287AA1E006E2B1D /* FriendTableViewCell.swift in Sources */,
+				2E4F3FA82287ABC2006E2B1D /* FriendTableViewController.swift in Sources */,
+				2EA5EF5A22865A690055F457 /* LoginViewController.swift in Sources */,
+				2EA5EF5822865A690055F457 /* AppDelegate.swift in Sources */,
+				2E4F3FAA228818EB006E2B1D /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF6422865A6B0055F457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA5EF6D22865A6B0055F457 /* SiempreOneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EA5EF6F22865A6B0055F457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EA5EF7822865A6B0055F457 /* SiempreOneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E4F3FBF2288D8FE006E2B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E4F3FB32288D8FD006E2B1D /* SiempreOneWidget */;
+			targetProxy = 2E4F3FBE2288D8FE006E2B1D /* PBXContainerItemProxy */;
+		};
+		2EA5EF6A22865A6B0055F457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA5EF5322865A690055F457 /* SiempreOne */;
+			targetProxy = 2EA5EF6922865A6B0055F457 /* PBXContainerItemProxy */;
+		};
+		2EA5EF7522865A6B0055F457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EA5EF5322865A690055F457 /* SiempreOne */;
+			targetProxy = 2EA5EF7422865A6B0055F457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E4F3FBA2288D8FE006E2B1D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E4F3FBB2288D8FE006E2B1D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		2EA5EF5B22865A690055F457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA5EF5C22865A690055F457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EA5EF6022865A6B0055F457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EA5EF6122865A6B0055F457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E4F3FC22288D8FE006E2B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926836E39AF9084586736203 /* Pods-SiempreOneWidget.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8Q6B2YG98;
+				INFOPLIST_FILE = SiempreOneWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siempre.SiempreOne.SiempreOneWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E4F3FC32288D8FE006E2B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C4C295D905C94A49856DBA /* Pods-SiempreOneWidget.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8Q6B2YG98;
+				INFOPLIST_FILE = SiempreOneWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siempre.SiempreOne.SiempreOneWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EA5EF7A22865A6B0055F457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EA5EF7B22865A6B0055F457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EA5EF7D22865A6B0055F457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F43851B4CE0DE4E0266F0C /* Pods-SiempreOne.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiempreOne/SiempreOne.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8Q6B2YG98;
+				INFOPLIST_FILE = SiempreOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siempre.SiempreOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EA5EF7E22865A6B0055F457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A7B04F27507173D9101E04F /* Pods-SiempreOne.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiempreOne/SiempreOne.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8Q6B2YG98;
+				INFOPLIST_FILE = SiempreOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siempre.SiempreOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EA5EF8022865A6B0055F457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657029FA0C329568620072FD /* Pods-SiempreOneTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8Q6B2YG98;
+				INFOPLIST_FILE = SiempreOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = siempre.SiempreOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiempreOne.app/SiempreOne";
+			};
+			name = Debug;
+		};
+		2EA5EF8122865A6B0055F457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C9343E891CBA45E2415F3D /* Pods-SiempreOneTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8Q6B2YG98;
+				INFOPLIST_FILE = SiempreOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = siempre.SiempreOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SiempreOne.app/SiempreOne";
+			};
+			name = Release;
+		};
+		2EA5EF8322865A6B0055F457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A9458EE17372D852A1BB477 /* Pods-SiempreOneUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8Q6B2YG98;
+				INFOPLIST_FILE = SiempreOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = siempre.SiempreOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SiempreOne;
+			};
+			name = Debug;
+		};
+		2EA5EF8422865A6B0055F457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFA97CF3C5917344C9D763D /* Pods-SiempreOneUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C8Q6B2YG98;
+				INFOPLIST_FILE = SiempreOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = siempre.SiempreOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SiempreOne;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E4F3FC12288D8FE006E2B1D /* Build configuration list for PBXNativeTarget "SiempreOneWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4F3FC22288D8FE006E2B1D /* Debug */,
+				2E4F3FC32288D8FE006E2B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA5EF4F22865A690055F457 /* Build configuration list for PBXProject "SiempreOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA5EF7A22865A6B0055F457 /* Debug */,
+				2EA5EF7B22865A6B0055F457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA5EF7C22865A6B0055F457 /* Build configuration list for PBXNativeTarget "SiempreOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA5EF7D22865A6B0055F457 /* Debug */,
+				2EA5EF7E22865A6B0055F457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA5EF7F22865A6B0055F457 /* Build configuration list for PBXNativeTarget "SiempreOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA5EF8022865A6B0055F457 /* Debug */,
+				2EA5EF8122865A6B0055F457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EA5EF8222865A6B0055F457 /* Build configuration list for PBXNativeTarget "SiempreOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EA5EF8322865A6B0055F457 /* Debug */,
+				2EA5EF8422865A6B0055F457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EA5EF4C22865A690055F457 /* Project object */;
+}
